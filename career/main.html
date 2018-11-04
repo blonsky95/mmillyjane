@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The squared doughnut</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid header-container">
+        <div class="row">
+          <div class="navbar-header col-xxs-12 col-xs-12 col-sm-4 col-md-3">
+            <h1 >
+              <a  href="../index.html" title="Squared Doughnut" class="site-title" id="title-text">
+                The Squared Doughnut
+              </a>
+            </h1>
+          </div>
+          <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-6" id="categories-menu">
+            <nav id="categories-nav" class="site-menu">
+              <div class="menu-bar">
+                <ul class="menu-main-menu" id="my-collapsible-menu">
+                  <li id="menu-item-icon" class="icon">
+                    <a href="javascript:void(0);" id="three-bars-icon" onclick="toggleDisplay()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </li>
+                  <li id="menu-item1" class="category-title">
+                        <a href="../index.html">
+                          HOME</a>
+                  </li>
+                  <li id="menu-item1" class="category-title">
+                        <a href="../london.html" ">
+                           LONDON</a>
+                  </li>
+                  <li id="menu-item1"class="category-title dropdown">
+                        <a class="dropbtn">CATEGORIES</a> 
+                          <div class="dropdown-content">
+                            <a href="../triedandtested/main.html">Tried and tested</a>
+                            <a href="../life/main.html">Life</a>
+                            <a href="../fasion/main.html">Fashion</a>
+                            <a href="../career/main.html">Career</a>
+                            <a href="../travel/main.html">Travel</a>
+                            <a href="../recipes/main.html">Recipes</a>
+                          </div>                          
+                  </li>
+                  <li id="menu-item1" class="category-title">
+                        <a href="contact.html" >
+                          CONTACT</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3" id="icons-menu">
+            <nav id="icons-nav" class="site-menu">
+              <div class="menu-bar">
+                <ul id="icon-main-menu" class="menu">
+                  <li id="menu-item5" class="social-links">
+                    <a href="https://www.instagram.com/mmillyjane/" target="_blank">
+                      <i class="fa fa-instagram" hidden="true" ></i>
+                    </a>
+                    <a href="#" target="_blank">
+                      <i class="fa fa-envelope" hidden="true"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                      <i class="fa fa-search" hidden="true"></i>
+                    </a>
+                  </li>
+                  
+                </ul><!-- #nav-list -->
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+
+  <div id="main-content" class="container-fluid contact-container">
+    <div class="heading-container">
+      <h1 class="page-heading">Displaying career posts</h1>
+    </div>
+  </div>
+
+  <footer class="general-footer">
+    <div class="container-instagram-feed">
+      <div class="instagram-link">
+        <h3> FOLLOW ON </h3>
+         <!--  <a href="https://www.instagram.com/mmillyjane/" target="_blank">@mmillyjane</a> -->
+        <h3 id="instagram-title-typography">Instagram</h3>
+      </div>
+        
+      <div id="instafeed" class="row">
+                
+      </div>
+      
+    </div>
+    <div id="footer-bottom">
+      <div class="container footer-bottom-wrapper">
+        <div class="row">
+          <div class="col-xxs-6 col-xs-5 col-sm-4 col-md-3 bottom-footer-div" id="sign-up-box">
+            <span class="input-email">type email to subscribe</span>
+          </div>   
+          <button class="col-xxs-6 col-xs-5 col-sm-3  col-md-2 bottom-footer-div" id="subscribe-btn">
+            <span class="btn-email">Subscribe</span>
+          </button>
+          <div class="col-xxs-12  col-xs-12 col-sm-5 col-md-3 logo-img bottom-footer-div" id="logo-img-container">
+            <div class="logo-img-div"></div>
+          </div>
+          <div class="col-xxs-12 col-xs-12 col-sm-12 col-md-4 bottom-footer-div">
+            <div class="footer-bottom-right">
+              <p>
+                <a href="#">CONTACT</a>
+              </p>
+              <p>
+                <a href="#"> © 2018 The Squared Doughnut | Website by Tatoe </a>
+              </p>             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/instafeed.min.js"></script>
+  <script src="js/custom-insta.js"></script>
+</body>
+</html>
